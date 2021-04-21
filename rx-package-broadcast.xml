@@ -1,0 +1,62 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+	<!-- 手机淘宝/闲鱼/一淘/特价版/... -->
+	<prescription type="broadcast" package="com.taobao.*" >
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+	</prescription>
+	<!-- 支付宝 -->
+	<prescription type="broadcast" package="com.eg.android.AlipayGphone" >
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+	</prescription>
+	<!-- 腾讯系 -->
+	<prescription type="broadcast" package="com.tencent.*" >
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+	</prescription>
+	<!-- bilibili -->
+	<prescription type="broadcast" package="tv.danmaku.bili" >
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+	</prescription>
+	<!-- 网易系 -->
+	<prescription type="broadcast" package="com.netease.*" >
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+	</prescription>
+	<!-- 百度系 -->
+	<prescription type="broadcast" package="com.baidu.*" >
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+	</prescription>
+</prescriptions>
