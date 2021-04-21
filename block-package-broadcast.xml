@@ -1,0 +1,41 @@
+<rules>
+	<broadcast block="true" log="true">
+		<intent-filter>
+			<action name="android.intent.action.PACKAGE_ADDED" />
+			<action name="android.intent.action.PACKAGE_REPLACED" />
+			<action name="android.intent.action.PACKAGE_CHANGED" />
+			<action name="android.intent.action.PACKAGE_REMOVED" />
+			<action name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+		</intent-filter>
+		<component-package equals="com.baidu.*" /><!--百度-->
+		<component-package equals="com.tencent.*" /><!--腾讯-->
+		<component-package equals="com.netease.*" /><!--网易-->
+		<component-package equals="com.taobao.*" /><!--淘宝-->
+		<component-package equals="com.alibaba.*" /><!--阿里-->
+		<component-package equals="com.alicom.*" /><!--阿里通信-->
+		<component-package equals="com.alicloud.*" /><!--阿里云-->
+		<component-package equals="com.eg.android.AlipayGphone" /><!--支付宝-->
+		<component-package equals="com.jingdong.*" /><!--京东-->
+		<component-package equals="com.jd.*" /><!--京东-->
+		<component-package equals="tv.danmaku.bili" /><!--哔哩哔哩-->
+		<component-package equals="me.ele" /><!--饿了么-->
+		<component-package equals="com.sankuai.meituan" /><!--美团-->
+		<component-package equals="com.suning.*" /><!--苏宁-->
+		<component-package equals="com.achievo.vipshop" /><!--唯品会-->
+		<component-package equals="com.tmall.wireless" /><!--手机天猫-->
+		<component-package equals="com.cainiao.wireless" /><!--菜鸟-->
+		<component-package equals="com.youku.*" /><!--优酷-->
+		<component-package equals="com.qiyi.*" /><!--爱奇艺-->
+		<component-package equals="com.ximalaya.*" /><!--喜马拉雅-->
+		<component-package equals="com.hunantv.imgo.activity" /><!--芒果TV-->
+		<component-package equals="com.koudai.weidian.buyer" /><!--微店-->
+		<component-package equals="com.qidian.*" /><!--起点-->
+		<component-package equals="com.shuqi.*" /><!--书旗-->
+		<component-package equals="com.zhihu.*" /><!--知乎-->
+		<component-package equals="com.xingin.xhs" /><!--小红书-->
+		<component-package equals="com.smzdm.client.android" /><!--张大妈-->
+		<component-package equals="com.ct.*" /><!--中国电信-->
+		<component-package equals="com.sinovatech.unicom.ui" /><!--联通手机营业厅-->
+		<component-package equals="com.greenpoint.android.mc10086.activity" /><!--中国移动手机营业厅-->
+	</broadcast>
+</rules>
